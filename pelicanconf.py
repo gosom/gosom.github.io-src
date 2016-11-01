@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Giorgos'
 SITENAME = u'/home/gkomninos/log/notes.log'
-SITEURL = ''
+SITEURL = 'http://www.gkomninos.com'
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 
 
@@ -15,7 +15,6 @@ TIMEZONE = 'Europe/Athens'
 DEFAULT_LANG = u'en'
 THEME = "/home/giorgos/project/pelican-themes/nice-blog"
 SIDEBAR_DISPLAY = []
-GOOGLE_ANALYTICS = 'UA-86665642-1'
 
 
 # Feed generation is usually not desired when developing
@@ -38,7 +37,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},

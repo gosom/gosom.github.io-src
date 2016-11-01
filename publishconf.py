@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://gkomninos.com'
+SITEURL = 'http://www.gkomninos.com'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -22,3 +22,4 @@ DELETE_OUTPUT_DIRECTORY = False
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = 'UA-86665642-1'
